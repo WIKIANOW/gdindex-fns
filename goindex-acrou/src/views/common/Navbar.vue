@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" :href="currgd.id">
-          <h3 class="title is-3 has-text-white">{{ siteName }}</h3>
+          <img src="{{ logoSite }}" alt="{{ siteName }}">
         </a>
         <a
           role="button"
